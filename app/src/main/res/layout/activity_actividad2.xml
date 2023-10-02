@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".Actividad2">
+
+    <TextView
+        android:id="@+id/textito"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lo que sea!!!"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/primero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textito"
+        app:layout_constraintBottom_toTopOf="@+id/segundo"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intents explicitos"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/regresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/maps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver maps"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/calculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Revisar la calculadora"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/llamada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checar llamadas"
+            android:textSize="30sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/segundo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/primero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intents implicitos"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a mi perfil de facebook"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a X"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a google"
+            android:textSize="30sp"></Button>
+        <Button
+            android:id="@+id/tiktok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a tiktok"
+            android:textSize="30sp"></Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
