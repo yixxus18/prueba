@@ -49,7 +49,7 @@ public class Actividad2 extends AppCompatActivity implements View.OnClickListene
     public void onClick(View view) {
 
         if (view.getId() == R.id.regresar) {
-            Intent i = new Intent(this, MainActivity.class);
+            Intent i = new Intent(this, GatitoActivity.class);
             startActivity(i);
         } else if (view.getId() == R.id.calculadora) {
             Intent i = new Intent(this, calculadora.class);
