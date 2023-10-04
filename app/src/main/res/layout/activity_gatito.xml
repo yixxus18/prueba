@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/azul"
     tools:context=".GatitoActivity">
 
 
@@ -95,6 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Victorias de X: "
+        android:textColor="@color/black"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/textViewO"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,6 +111,7 @@
         android:layout_height="wrap_content"
         android:text="Victorias de O: "
         android:textSize="40dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
